@@ -10,8 +10,7 @@ var cookieParser = require('cookie-parser');
 var session = require('express-session');
 let mongoose = require('mongoose');
 
-// mongoose.connect('mongodb://localhost/SSDI', {useNewUrlParser: true, useUnifiedTopology: true});
-mongoose.connect('mongodb+srv://sameer:sameer123456@ssdi-mns1h.mongodb.net/SSDI?retryWrites=true&w=majority', {useNewUrlParser: true, useUnifiedTopology: true});
+mongoose.connect('mongodb+srv://Gayatri:vaka%402799@cluster0.eqrnf.mongodb.net/Cinco?authSource=admin&replicaSet=atlas-z4c3fg-shard-0&w=majority&readPreference=primary&appname=MongoDB%20Compass&retryWrites=true&ssl=true', {useNewUrlParser: true, useUnifiedTopology: true});
 
 let db = mongoose.connection;
 
